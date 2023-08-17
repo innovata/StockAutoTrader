@@ -53,7 +53,7 @@ Python 3.9 이상에서 Jupyter Notebook 을 통해 분석 결과를 확인하�
 
     윈도우 사용자의 경우 :
 
-       YOUR_CURRENT_PATH/YOUR_VIRTUAL_ENVIRONMENT_FOLDER/Script/activate.bat 
+       YOUR_CURRENT_PATH\YOUR_VIRTUAL_ENVIRONMENT_FOLDER\Script\activate.bat 
 
     이제 터미널 상에서 가상환경모드로 변경된 것을 확인할 수 있습니다.
 
