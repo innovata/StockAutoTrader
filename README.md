@@ -47,7 +47,7 @@ Python 3.9 이상에서 Jupyter Notebook 을 통해 분석 결과를 확인하�
 
 3. 필수 패키지 설치
 
-    pip install -r requirements.txt
+       pip install -r requirements.txt
 
 
 
@@ -56,11 +56,11 @@ Python 3.9 이상에서 Jupyter Notebook 을 통해 분석 결과를 확인하�
 
 1. 커멘드라인에서 글로벌환경에서 한번만 쥬피터 설치
 
-    pip install jupyter
+       pip install jupyter
 
 2. 가상환경 커멘드라인에서 ipykernel 설치
 
-    pip install ipykernel
+       pip install ipykernel
 
 3. 가상환경 커멘드라인에서 새로운 가상환경 쥬피터를 설치
 
@@ -70,25 +70,27 @@ Python 3.9 이상에서 Jupyter Notebook 을 통해 분석 결과를 확인하�
 
 5. kernels.json 파일에서  python.exe 경로 수정
 
-    {
-        "argv": [
-            "{YOUR_DOWNLOAD_PATH}\\StockAutoTrader\\YOUR_ENV_NAME\\Scripts\\python.exe",
-            "-m",
-            "ipykernel_launcher",
-            "-f",
-            "{connection_file}"
-        ],
-        "display_name": "YOUR_ENV_NAME",
-        "language": "python"
-    }
+       {
+           "argv": [
+               "{YOUR_DOWNLOAD_PATH}\\StockAutoTrader\\YOUR_ENV_NAME\\Scripts\\python.exe",
+               "-m",
+               "ipykernel_launcher",
+               "-f",
+               "{connection_file}"
+           ],
+           "display_name": "YOUR_ENV_NAME",
+           "language": "python"
+       }
 
 6. 관리자권한으로 커멘드라인에서 노트북 실행
 
-    jupyter notebook
+       jupyter notebook
 
-7. 노트북에서 커널 변경
+7. 쥬피터 노트북에서 커널 변경 방법
 
-    메뉴 / Kernel / Change kernel
+다음과 같이 메뉴를 이동합니다.
+
+       메뉴 / Kernel / Change kernel
 
 
 <!-- ############################################################ -->
@@ -98,6 +100,7 @@ Python 3.9 이상에서 Jupyter Notebook 을 통해 분석 결과를 확인하�
 ### 1. Jupyter Notebook 사용 (현재 기준 권장)
 
 프로젝트 폴더 안에 'jupyter' 라는 폴더로 이동합니다.  
+(준비중입니다...)
 
 
 ### 2. 포트폴리오 웹서비스 (현재 준비중)
