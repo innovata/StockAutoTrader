@@ -43,7 +43,7 @@ Python 3.9 이상에서 Jupyter Notebook 을 통해 분석 결과를 확인하�
    다음 링크에서 파이썬을 다운로드 받아 설치하세요.  
     https://www.python.org/downloads
 
-2. Pythin Virtual Environment 구성
+2. Python Virtual Environment 구성
 
     파이썬에서는 가상환경 구성을 권장합니다. 다음 링크의 가이드를 읽고 그대로 가상환경을 구성하십시오.  
     https://docs.python.org/3/tutorial/venv.html
